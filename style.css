@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+#color {
+    padding: 10px;
+    margin: 2px;
+}
+
+#btn {
+    padding: 10px;
+    margin: 2px;
+}
+
+.clr {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 5px solid lime;
+}
+
+.show {
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+}
+
+.click {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    color: lime;
+    display: none;
+}
+
+#testID {
+    padding: 10px;
+    margin: 2px;
+    display: none;
+}
+
+#checkBtn {
+    padding: 10px;
+    margin: 2px;
+    display: none;
+}
