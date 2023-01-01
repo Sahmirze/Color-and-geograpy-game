@@ -98,6 +98,7 @@ btn.addEventListener('click', () => {
                     check()
                     color.disabled = false
                     x = 0
+                    countryRandom = Math.floor(Math.random() * question.length)
                 } else {
                     check()
                     color.style.display = "none"
