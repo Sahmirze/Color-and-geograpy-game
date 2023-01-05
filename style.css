@@ -52,3 +52,10 @@
     margin: 2px;
     display: none;
 }
+
+header>p {
+    text-align: center;
+    font-size: 1.2em;
+    color: black;
+    font-weight: bold;
+}
