@@ -57,5 +57,14 @@ let colorArr = ['red',
     'beige',
     'brown',
     'teal',
-    'gold'
+    'gold',
+    'pink',
+    'coral',
+    'darkorange',
+    'violet',
+    'lightgreen',
+    'darkcyan',
+    'navy',
+    'maroon',
+    'silver'
 ]

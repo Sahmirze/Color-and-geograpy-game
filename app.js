@@ -44,20 +44,29 @@ btn.addEventListener('click', () => {
                     color.disabled = false
                     btn.disabled = false
                     x = 0
-                    headerP.textContent = x
+                    headerP.textContent = `Sənin Xalin  ${x}`
+
 
                 } else {
                     check()
                     color.style.display = "none"
                     btn.style.display = "none"
                     clr.style.display = "none"
-                    alert("bro oyunu uduzdun yeniden basla")
+                    setTimeout(() => {
+                        alert("bro oyunu uduzdun yeniden basla")
+                    }, 200)
+
                     color.disabled = true
                 }
 
 
             })
 
+        } else {
+            check()
+            setTimeout(() => {
+                alert('uduzdun yeniden basla')
+            }, 100);
         }
 
     } else {
@@ -73,7 +82,8 @@ btn.addEventListener('click', () => {
         headerP.style.display = "none"
         alert("winer winner chicken dinner")
     }
-    headerP.textContent = x
+    headerP.textContent = `Sənin Xalin  ${x}`
+
     clrRandom = Math.floor(Math.random() * colorArr.length)
     clr.style.backgroundColor = `${colorArr[clrRandom]}`
         // countryRandom = Math.floor(Math.random() * question.length)
